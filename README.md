@@ -70,26 +70,3 @@ python scripts/probe_family.py --encoder pretrained --model_dir models/pretraine
 
 Results land in `results/*.json`. Each BPP result reports both `test_seen_families` and
 `test_novel_families`; the gap between them is the most informative number in this project.
-
-## Optional: RNA-FM comparison
-
-RNA-FM weights are on Hugging Face / the RNA-FM GitHub. Load them through the same
-`Encoder` interface (add a `rnafm` kind that returns per-residue features with the same
-index convention) and rerun the two probes unchanged.
-
-## Results
-
-| Encoder | BPP AUPRC (seen) | BPP AUPRC (novel) | Family acc | Family macro-F1 |
-|---|---|---|---|---|
-| 3-mer counts | n/a | n/a | | |
-| One-hot | | | | |
-| Random-init | | | | |
-| Pretrained (ours) | | | | |
-| RNA-FM (optional) | | | | |
-
-## Deliverables checklist
-
-- [ ] Training code (`scripts/pretrain.py`, `src/rnalm/`)
-- [ ] Split protocol (`src/rnalm/data.py`, `data/splits.csv` summary)
-- [ ] Results table with baselines (`results/`)
-- [ ] Report: what the embeddings did and did not capture (`report/REPORT.md`)
