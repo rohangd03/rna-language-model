@@ -1,0 +1,19 @@
+{
+  "name": "random_final",
+  "checkpoint": "models/random.pt",
+  "val_loss": 0.00864589543093262,
+  "test_seen_families": {
+    "loss": 0.010647860596606164,
+    "auprc": 0.8011504875693689,
+    "auroc": 0.9969872469578208,
+    "n_seqs": 500,
+    "n_pairs": 2414537
+  },
+  "test_novel_families": {
+    "loss": 0.010869566541026677,
+    "auprc": 0.8572421970233277,
+    "auroc": 0.9976553420314583,
+    "n_seqs": 500,
+    "n_pairs": 1885570
+  }
+}

@@ -1,0 +1,8 @@
+data/*.fa
+data/*.pkl
+data/clu*
+data/tmp/
+models/
+*.pt
+__pycache__/
+*.egg-info/

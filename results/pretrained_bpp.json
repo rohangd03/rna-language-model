@@ -1,0 +1,17 @@
+{
+  "name": "pretrained",
+  "checkpoint": "models/pretrained.pt",
+  "val_loss": 0.0223552208849732,
+  "test_seen_families": {
+    "loss": 0.030379953274782857,
+    "auprc": 0.045160932066535216,
+    "n_seqs": 500,
+    "n_pairs": 2414537
+  },
+  "test_novel_families": {
+    "loss": 0.036561746555361284,
+    "auprc": 0.052205948500038866,
+    "n_seqs": 500,
+    "n_pairs": 1885570
+  }
+}

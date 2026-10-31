@@ -1,0 +1,17 @@
+{
+  "name": "random",
+  "checkpoint": "models/random.pt",
+  "val_loss": 0.022353296566219365,
+  "test_seen_families": {
+    "loss": 0.03060128603451912,
+    "auprc": 0.040989786670080866,
+    "n_seqs": 500,
+    "n_pairs": 2414537
+  },
+  "test_novel_families": {
+    "loss": 0.03701628982378132,
+    "auprc": 0.04480517766635146,
+    "n_seqs": 500,
+    "n_pairs": 1885570
+  }
+}
